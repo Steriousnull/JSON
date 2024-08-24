@@ -1,0 +1,23 @@
+{
+    "name":"rajesh",
+    "gender":"male",
+    "age":25,
+    "ismarried":false,
+    "marks":[
+        {
+            "English":95,
+            "Description":"very good"
+        },
+        {
+            "Maths":45,
+            "Description":"very bad"
+        }
+    ],
+    "average":76,
+    "hobbies":null,
+    "address":{
+        "street":"cherry road",
+        "city":"salem",
+        "pincode":560087
+    }
+}

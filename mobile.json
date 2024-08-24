@@ -1,0 +1,38 @@
+[
+    {
+        "model":"Redmi Note 10 Pro",
+        "brand":"Redmi",
+        "mrp":15999.00,
+        "price":12499.00,
+        "image":"https://www.flipkart.com/redmi-note-10-pro-vintage-bronze-128-gb/p/itm0c60343f7112c?pid=MOBGFDFYFVFSVMGX&lid=LSTMOBGFDFYFVFSVMGXCNYLDI&marketplace=FLIPKART&q=redmi+note+10+pro&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=factBasedRecommendation%2FrecentlyViewed&iid=8956bd28-cb2c-4d3d-ab87-4960f5dbb491.MOBGFDFYFVFSVMGX.SEARCH&ppt=hp&ppn=None&ssid=chu2l8n0pkclc35s1724468281686&qH=20ef7d326dcad8f3",
+        "ram":"6GB",
+        "storage":"128GB",
+        "camera":"64MP",
+        "isavailable":true
+    },
+    {
+        "model":"vivo X70 Pro",
+        "brand":"vivo",
+        "mrp":51990.00,
+        "price":34990.00,
+        "image":"https://rukminim2.flixcart.com/image/416/416/ku4ezrk0/mobile/u/z/i/x70-pro-v2105-vivo-original-imag7bq4eumqhgka.jpeg?q=70&crop=false",
+        "ram":"8GB",
+        "storage":"128GB",
+        "camera":"50MP",
+        "isavailable":true
+
+    },
+    {
+        "model":"SAMSUNG Galaxy S20 FE 5G",
+        "brand":"samsung",
+        "mrp":74999.00,
+        "price":29999.00,
+        "image":"https://rukminim2.flixcart.com/image/416/416/kg15ocw0/mobile/f/q/g/samsung-galaxy-s20-fe-sm-g780fzgnins-original-imafwd2jzgfdejgc.jpeg?q=70&crop=false",
+        "ram":"8GB",
+        "storage":"128GB",
+        "camera":"64MP",
+        "isavailable":false
+
+    }
+
+]

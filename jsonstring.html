@@ -1,0 +1,43 @@
+<!--sample code to convert json string to js object-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json tutorial</title>
+</head>
+
+<body>
+    <!--
+<script>
+    var str='{"name":"ram","age":25}';
+    //alert(typeof(str));
+
+    //now we are going to convert json format to js objest with the function json.parse
+    var o=JSON.parse(str);
+    //alert(typeof(o));
+    document.write(o.name+" age is "+o.age);
+
+    
+
+</script>
+    -->
+    <script>
+        //now we are going to convert java script object to json format using stringfy
+        var user = {
+            "name":"david",
+            "age":45
+        };
+        //alert(typeof(user));
+
+        var str=JSON.stringify(user);
+        alert(typeof(str));
+        document.write(str);
+        document.write(user.name + " is "+user.age+"years old")
+
+
+    </script>
+    
+</body>
+
+</html>

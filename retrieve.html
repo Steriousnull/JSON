@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON</title>
+</head>
+<body>
+    <!--retrieve complex json data-->
+    <script>
+        var str = '{"names":"soinal","1": "rajesh","gender": "male","roll no":678,"age":25,"ismarried":false,"marks":[{"English":95,"Description":"very good"},{"Maths":45,"Description":"very bad"}],"average":76,"hobbies":null,"address":{"street":"cherry road","city":"salem","pincode":560087}}';
+        var o = JSON.parse(str);
+        //   . (dot notation)
+        document.write("<br> Name : "+o.names);     //square notation
+
+        document.write("<br> Name : "+o["1"]);     
+        document.write("<br> age : "+ o.age);
+        document.write("<br> address : "+o.address.street);
+
+        document.write("<br> roll  no : "+o["roll no"]);  // square notation
+
+        document.write("<br> English : "+o.marks[0].English);
+        document.write("<br> Description : "+o.marks[0].Description);
+
+        var sub = "English";
+
+        document.write("<br> English Marsks : "+o.marks[0][sub]);  // square notation
+
+        document.write("<br> address : "+o["address"]["street"]);   // square notation
+
+
+
+
+
+        //  [] (square notation)
+
+
+
+</script>
+</body>
+</html>
